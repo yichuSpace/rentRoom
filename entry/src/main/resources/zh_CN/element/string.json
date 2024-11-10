@@ -6,11 +6,11 @@
     },
     {
       "name": "EntryAbility_desc",
-      "value": "硅谷租房描述"
+      "value": "description"
     },
     {
       "name": "EntryAbility_label",
-      "value": "硅谷租房"
+      "value": "label"
     }
   ]
 }
