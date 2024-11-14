@@ -2,30 +2,30 @@ import type { IBannerItem, IBannerList } from '../../models/HomeData'
 
 @Component
 export default struct SwiperLayout {
-  @Prop bannerList: IBannerList
+  // @Prop bannerList: IBannerList
 
-  // @State bannerList: IBannerList = [
-  //   {
-  //     "id": 1,
-  //     "name": "banner1",
-  //     "imageURL": "http://localhost:6060/public/home_banner_1.jpg"
-  //   },
-  //   {
-  //     "id": 2,
-  //     "name": "banner2",
-  //     "imageURL": "http://localhost:6060/public/home_banner_2.jpg"
-  //   },
-  //   {
-  //     "id": 3,
-  //     "name": "banner3",
-  //     "imageURL": "http://localhost:6060/public/home_banner_3.jpg"
-  //   },
-  //   {
-  //     "id": 4,
-  //     "name": "banner4",
-  //     "imageURL": "http://localhost:6060/public/home_banner_4.jpg"
-  //   }
-  // ]
+  @State bannerList: IBannerList = [
+    {
+      "id": 1,
+      "name": "banner1",
+      "imageURL": "http://localhost:6060/public/home_banner_1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "banner2",
+      "imageURL": "http://localhost:6060/public/home_banner_2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "banner3",
+      "imageURL": "http://localhost:6060/public/home_banner_3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "banner4",
+      "imageURL": "http://localhost:6060/public/home_banner_4.jpg"
+    }
+  ]
 
   build() {
 

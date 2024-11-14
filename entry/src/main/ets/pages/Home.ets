@@ -21,7 +21,7 @@ export default struct Home {
     Scroll() {
       Column() {
         // 轮播图组件（使用prop通信）
-        SwiperLayout({ bannerList: this.bannerList })
+        SwiperLayout()
       }
       .width('100%')
     }
