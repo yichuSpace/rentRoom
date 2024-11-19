@@ -1,5 +1,5 @@
-
 // https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/arkts-rendering-control-lazyforeach-V5
+@Observed
 export class BannerListDataSource implements IDataSource {
   // 内部用来触发UI更新对象
   listeners: DataChangeListener[] = []
