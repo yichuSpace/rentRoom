@@ -5,7 +5,6 @@ export default struct SwiperLayout {
   @ObjectLink bannerList: BannerListDataSource
 
   build() {
-
     Swiper() {
       LazyForEach(this.bannerList, (banner: IBannerItem) => {
         Image(banner.imageURL).width('100%').height(175)
